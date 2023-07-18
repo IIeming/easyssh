@@ -1,0 +1,28 @@
+{
+  "isSecret": false,
+  "publicKey": "/home/deploy/test.pub",
+  "user": "root",
+  "port": 22,
+  "passwd": "123456",
+  "hosts":
+    [
+      { 
+        "name": "worker-0",
+        "host": "172.17.77.197",
+        "passwd": "2199", 
+        "publicKey": "/home/deploy/test.pub"
+      },
+      { 
+        "name": "worker-1",
+        "host": "172.18.0.8", 
+        "passwd": "worker-0",
+        "publicKey": "/home/deploy/test.pub"
+      },
+      { 
+        "name": "worker-2",
+        "host": "172.18.0.8", 
+        "passwd": "worker-0",
+        "publicKey": "/home/deploy/test.pub"
+      }
+    ]
+}
